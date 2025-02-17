@@ -1,0 +1,51 @@
+# Ignore environment variables file
+.env
+
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+*.env
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore CSV files (datasets)
+*.csv
+*.tsv
+
+
+# Ignore logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Ignore compiled files
+*.so
+*.out
+*.dll
+*.exe
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore MacOS system files
+.DS_Store
+
+# Ignore Streamlit cache
+.streamlit/
+
+# Ignore large dataset files
+data/
+datasets/
+
+# Ignore model weight files (if using deep learning)
+*.h5
+*.ckpt
+*.pt
+*.onnx
